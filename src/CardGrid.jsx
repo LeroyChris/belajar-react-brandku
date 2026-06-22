@@ -8,6 +8,7 @@ const CardGrid = ({ features = [] }) => {
                 {features.map((item) => (
                     <Card
                         key={item.id}
+                        id={item.id}
                         icon={item.icon}
                         title={item.title}
                         description={item.description}
